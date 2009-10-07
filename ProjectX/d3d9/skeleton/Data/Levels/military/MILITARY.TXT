@@ -1,0 +1,37 @@
+Door unlocked..
+Door locked..
+Find the five bomb pieces to exit the level
+Door unlocked..
+Door locked..
+Door locked..
+Door unlocked..
+You found a secret
+Exit door locked..
+Exit door unlocked..
+Entering exit area.
+Four to go
+Three to go
+Two to go
+One to go
+Now find the exit
+You need 5 bomb pieces to unlock the exit door
+You found a secret
+Decontamination sequence initiated
+Door locked..
+Door unlocked..
+This is a remotely locked security door
+This is a remotely locked security door
+This is a remotely locked security door
+This is a remotely locked security door
+Door unlocked..
+Door locked..
+Laser field deactivated..
+Intruder detected
+Laser field active
+Door unlocked..
+Door locked..
+This is a remotely locked security door
+This is a remotely locked security door
+You found a secret
+Door locked..
+Door unlocked..

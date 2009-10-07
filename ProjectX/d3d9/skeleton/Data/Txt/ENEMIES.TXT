@@ -1,0 +1,1025 @@
+Gun_NewGunType 0
+Gun_MaxTurnSpeed 2
+Gun_TurnAccell 0.065
+Gun_TurnDecell 0.073
+Gun_ReloadTime 1.0  
+Gun_BurstMasterTime 150
+Gun_BurstMasterCount 3
+Gun_BurstAngle 32
+Gun_PowerLevel 1
+Gun_PrimarySecondary 0
+Gun_WeaponType 13
+
+
+Gun_NewGunType 1
+Gun_MaxTurnSpeed 3
+Gun_TurnAccell 0.060
+Gun_TurnDecell 0.060
+Gun_ReloadTime 1.0
+Gun_BurstMasterTime 20
+Gun_BurstMasterCount 2
+Gun_BurstAngle 3
+Gun_PowerLevel 1
+Gun_PrimarySecondary 0
+Gun_WeaponType 0
+
+
+Gun_NewGunType 2
+Gun_MaxTurnSpeed 2
+Gun_TurnAccell 0.076
+Gun_TurnDecell 0.072
+Gun_ReloadTime 20.0
+Gun_BurstMasterTime 360
+Gun_BurstMasterCount 3
+Gun_BurstAngle 45
+Gun_PowerLevel 1
+Gun_PrimarySecondary 1
+Gun_WeaponType 14
+
+
+Gun_NewGunType 3
+Gun_MaxTurnSpeed 3
+Gun_TurnAccell 0.076
+Gun_TurnDecell 0.076
+Gun_ReloadTime 4
+Gun_BurstMasterTime 200
+Gun_BurstMasterCount 6
+Gun_BurstAngle 11
+Gun_PowerLevel 1
+Gun_PrimarySecondary 1
+Gun_WeaponType 5
+
+
+Gun_NewGunType 4
+Gun_MaxTurnSpeed 4
+Gun_TurnAccell 0.076
+Gun_TurnDecell 0.072
+Gun_ReloadTime 4
+Gun_BurstMasterTime 200
+Gun_BurstMasterCount 4
+Gun_BurstAngle 10
+Gun_PowerLevel 1
+Gun_PrimarySecondary 1
+Gun_WeaponType 5 
+
+
+Gun_NewGunType 5
+Gun_MaxTurnSpeed 2.5
+Gun_TurnAccell 0.074
+Gun_TurnDecell 0.070
+Gun_ReloadTime 1.0
+Gun_BurstMasterTime 60
+Gun_BurstMasterCount 2
+Gun_BurstAngle 3
+Gun_PowerLevel 1
+Gun_PrimarySecondary 0
+Gun_WeaponType 14
+
+
+Gun_NewGunType 7
+Gun_MaxTurnSpeed 4
+Gun_TurnAccell 0.076
+Gun_TurnDecell 0.072
+Gun_ReloadTime 120.0
+Gun_BurstMasterTime 1.0
+Gun_BurstMasterCount 0
+Gun_BurstAngle 360
+Gun_PowerLevel 1
+Gun_PrimarySecondary 1
+Gun_WeaponType 14
+
+
+Gun_NewGunType 8
+Gun_MaxTurnSpeed 4
+Gun_TurnAccell 0.074
+Gun_TurnDecell 0.070
+Gun_ReloadTime 30.0
+Gun_BurstMasterTime 0.1
+Gun_BurstMasterCount 0
+Gun_BurstAngle 360
+Gun_PowerLevel 2
+Gun_PrimarySecondary 0
+Gun_WeaponType 0
+
+
+Gun_NewGunType 9
+Gun_MaxTurnSpeed 2.5
+Gun_TurnAccell 0.074
+Gun_TurnDecell 0.070
+Gun_ReloadTime 6
+Gun_BurstMasterTime 120
+Gun_BurstMasterCount 3
+Gun_BurstAngle 12
+Gun_PowerLevel 1
+Gun_PrimarySecondary 0
+Gun_WeaponType 7
+
+
+EnemyType ENEMY_Lazbot
+Flags AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_FIND
+Shield 512
+Viewcone 360
+HearRange 3072
+PrimaryFireRate 7.0
+Radius 90
+ThinkTime 10
+MaxMoveRate 1
+Anticipate_Move 0.89
+MinRange 64
+
+
+
+EnemyType ENEMY_SnubTurret
+Shield 255
+PowerLevel 2
+PrimaryFireRate 7.0
+Radius 90
+Anticipate_Move 0.4
+ViewCone 360
+
+
+
+EnemyType ENEMY_BeamTurret
+Shield 160
+PowerLevel 1
+Radius 75
+ViewCone 360
+
+
+
+EnemyType ENEMY_PulseTurret
+Shield 130
+PowerLevel 1
+Radius 70
+ViewCone 360
+
+
+
+EnemyType ENEMY_SnubBot
+Flags AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+Shield 128
+Viewcone 360
+HearRange 4096
+ThinkRange 4096
+Anticipate_Move 0.3
+PowerLevel 1
+PrimaryFireRate 20.0
+Radius 80
+MaxMoveRate 5.5
+
+
+EnemyType ENEMY_Leader_SnubBot
+Flags AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+Shield 256
+Viewcone 360
+HearRange 4096
+Anticipate_Move 0.4
+PowerLevel 1
+PrimaryFireRate 15.0
+Radius 80
+MaxMoveRate 7
+
+
+
+EnemyType ENEMY_Mekton
+Flags AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_LEAVENETWORK
+Shield 256
+Viewcone 360
+HearRange 4096
+MaxRange  1024
+PrimaryFireRate 5.0
+Radius 90
+ThinkTime 10
+MaxMoveRate 4
+Anticipate_Move 0.40
+
+
+EnemyType ENEMY_Leader_Mekton
+Flags AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+Shield 384
+Viewcone 360
+HearRange 4096
+ThinkRange 4096
+PrimaryFireRate 4.0
+Radius 90
+ThinkTime 5
+MaxMoveRate 4.5
+Anticipate_Move 0.9
+
+
+
+EnemyType ENEMY_Swarm
+Flags AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_RAMMINES
+AI_BEHAVIOUR_RETREAT
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+Shield 64
+Anticipate_Move 0
+Viewcone 80
+MaxTurnRate 2.925
+TurnRateAccell 0.060
+MoveRateAccell 0.060
+ThinkTime 40.0
+Maxmoverate 9.0
+PrimaryFireRate 35.0
+Avoid_Mines 0
+Avoid_Secondary 0
+Avoid_Primary 0
+MinRange 256
+Radius 75
+PrimaryWeaponType 7 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+EnemyType ENEMY_Leader_Swarm
+Flags AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_RAMMINES
+AI_BEHAVIOUR_RETREAT
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+Shield 128
+Anticipate_Move 1
+Viewcone 80
+MaxTurnRate 2.925
+TurnRateAccell 0.065
+MoveRateAccell 0.065
+ThinkTime 30.0
+BlindSearchTime 10240
+NetworkRange 10240
+Maxmoverate 12
+PrimaryFireRate 30.0
+Avoid_Mines 0
+Avoid_Secondary 0
+Avoid_Primary 0
+MinRange 256
+Radius 75
+PrimaryWeaponType 7 
+HearRange 4096
+MaxRange  1024
+
+
+
+EnemyType ENEMY_MineLayer
+Flags AI_BEHAVIOUR_DROPMINES
+AI_BEHAVIOUR_AVOID_MINES
+Shield 1350
+Avoid_Mines 10
+MaxMoveRate 8
+Radius 90
+Viewcone 180
+
+
+
+EnemyType ENEMY_Hunter
+Flags AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+Shield 128
+Anticipate_Move 0.3
+Viewcone 160
+Avoid_Mines 9
+PowerLevel 2
+MaxMoveRate 8
+Avoid_Primary 1.5
+Avoid_Secondary 2
+TurnRateAccell 0.065
+MoveRateAccell 0.065
+Radius 85
+MinRange 128
+PrimaryFireRate 45.0
+PrimaryWeaponType 12
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096 
+
+
+EnemyType ENEMY_Leader_Hunter
+Flags AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE
+AI_BEHAVIOUR_LEAVENETWORK 
+Shield 200
+Anticipate_Move 0.35
+Viewcone 160
+Avoid_Mines 9
+PowerLevel 3
+MaxMoveRate 8
+Avoid_Primary 2
+Avoid_Secondary 2.5
+TurnRateAccell 0.065
+MoveRateAccell 0.065
+Radius 85
+MinRange 64
+PrimaryFireRate 35.0
+PrimaryWeaponType 12
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096 
+
+
+
+EnemyType ENEMY_Shade
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_RETREAT
+AI_BEHAVIOUR_CLOAK
+AI_BEHAVIOUR_LEAVENETWORK
+Avoid_Secondary 3
+Avoid_primary 4
+Viewcone 160
+Avoid_Mines 6
+PrimaryFireRate 35.0
+PrimaryWeaponType 11
+TurnRateAccell 0.070
+MoveRateAccell 0.070
+Radius  80
+Shield 256
+Anticipate_Move 0.4
+MinRange 256
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+EnemyType ENEMY_Leader_Shade
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_RETREAT
+AI_BEHAVIOUR_CLOAK
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Avoid_Secondary 3
+Avoid_primary 4
+Viewcone 180
+Avoid_Mines 6
+PrimaryFireRate 35.0
+PrimaryWeaponType 11
+TurnRateAccell 0.070
+MoveRateAccell 0.070
+Radius  80
+Shield 384
+Anticipate_Move 0.45
+MinRange 256
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+EnemyType ENEMY_Supressor
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 180
+Avoid_Secondary 3
+Avoid_primary 3.5
+Avoid_Mines 6
+PrimaryFireRate 50.0
+TurnRateAccell 0.075
+MoveRateAccell 0.085
+MoveRateDecell 0.075
+PrimaryWeaponType 9
+Radius 110 
+Shield 384
+Anticipate_Move 0.7
+MaxTurnRate 2.950
+HearRange 512
+MaxRange  1024
+BlindSearchTime 300
+NetworkRange 256
+ThinkRange 512
+Maxmoverate 12.5
+ThinkTime 10
+
+
+
+EnemyType ENEMY_Leader_Supressor
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_AVOID_MINES
+Maxmoverate 12.5
+Viewcone 180
+Avoid_Secondary 4
+Avoid_primary 4.5
+Avoid_Mines 6
+PrimaryFireRate 35.0
+PrimaryWeaponType 3
+TurnRateAccell 0.080
+MoveRateAccell 0.080
+PrimaryWeaponType 9
+Radius 110 
+Shield 512
+Anticipate_Move 0.8
+MaxTurnRate 2.950
+HearRange 512
+MaxRange  1024
+BlindSearchTime 300
+NetworkRange 256
+ThinkRange 1024
+ThinkTime 10
+
+
+EnemyType ENEMY_Levitank
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_ICANTYAW
+AI_BEHAVIOUR_ICANTPITCH
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 120
+Avoid_Secondary 3
+Avoid_primary 3
+Avoid_Mines 6
+TurnRateAccell 0.070
+MoveRateAccell 0.070
+Radius 80
+Shield 256
+Maxmoverate 7.0
+Anticipate_Move 0.1
+MinRange 356
+MaxTurnRate 2.725
+PrimaryFireRate 180.0
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+
+EnemyType ENEMY_Leader_Levitank
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_ICANTYAW
+AI_BEHAVIOUR_ICANTPITCH
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 120
+Avoid_Secondary 4
+Avoid_primary 4
+Avoid_Mines 6
+TurnRateAccell 0.070
+MoveRateAccell 0.070
+Radius 80
+Shield 384
+Maxmoverate 10.0
+Anticipate_Move 0.3
+MinRange 356
+MaxTurnRate 2.725
+PrimaryFireRate 180.0
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+
+EnemyType ENEMY_Max 
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_ICANTYAW
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 300
+Avoid_Secondary 2
+Avoid_primary 6
+Avoid_Mines 0
+TurnRateAccell 0.060
+MoveRateAccell 0.065
+Radius 190
+Shield 1024
+Maxmoverate 4.5
+Anticipate_Move 0.7
+MinRange 128
+MaxTurnRate 1.5
+PrimaryWeaponType 2
+PrimaryFireRate 3.0
+PowerLevel 3
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+ThinkTime 10
+
+
+EnemyType ENEMY_Leader_Max 
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_ICANTYAW
+AI_BEHAVIOUR_WEAPONKNOWLEDGE
+AI_BEHAVIOUR_LEAVENETWORK 
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 360
+Avoid_Secondary 6.5
+Avoid_primary 7
+Avoid_Mines 7
+TurnRateAccell 0.070
+MoveRateAccell 0.070
+Radius 190
+Shield 1024
+Maxmoverate 6.0
+Anticipate_Move 0.7
+MinRange 64
+MaxTurnRate 3.0
+PrimaryWeaponType 2
+PrimaryFireRate 2.0
+PowerLevel 3
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+ThinkTime 10
+
+
+Enemytype ENEMY_Airmobil
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_ICANTYAW
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 90
+Avoid_Secondary 4
+Avoid_primary 3
+Avoid_Mines 5
+SecondaryWeaponType 6
+SecondaryFireRate 360.0
+Shield 512
+Radius 145
+HearRange 4096
+PowerLevel 2
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Leader_Airmobil
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_ICANTYAW
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Viewcone 180
+Avoid_Secondary 4.5
+Avoid_primary 3.5
+Avoid_Mines 5.5
+SecondaryWeaponType 6
+SecondaryFireRate 360.0
+Shield 600
+PowerLevel 2
+Radius 145
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Duel
+Flags AI_BEHAVIOUR_ANTICIPATE_MOVE
+Anticipate_Move 0.2
+Shield 300
+Radius 190
+Viewcone 360 
+
+
+Enemytype ENEMY_Bike_Cerbero
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 256
+PrimaryWeaponType 0
+PrimaryFireRate  30
+Powerlevel 3
+Viewcone 180
+Avoid_Secondary 7
+Avoid_primary 7
+Avoid_Mines 6
+TurnRateAccell 0.075
+MoveRateAccell 0.075
+Anticipate_Move 0.7
+MaxMoveRate 8
+BlindSearchTime 1024
+MinRange 256
+ThinkTime 10
+HearRange 4096
+MaxRange  1024
+NetworkRange 4096
+ThinkRange 4096 
+
+Enemytype ENEMY_Boss_Metatank
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+Radius 300
+
+Enemytype ENEMY_Legz
+AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_PRECISECONTROL
+MaxMoveRate 6
+Viewcone 360
+Radius 70
+ThinkTime 10
+
+Enemytype ENEMY_Bike_Excop
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 512
+PrimaryWeaponType 0
+PrimaryFireRate  20
+Powerlevel 2
+Viewcone 190
+Avoid_Secondary 7
+Avoid_primary 8
+Avoid_Mines 6
+TurnRateAccell 0.075
+MoveRateAccell 0.075
+Anticipate_Move 0.7
+MaxMoveRate 9
+MinRange 256
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+Enemytype ENEMY_Bike_HK5
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 384
+PrimaryWeaponType 1
+PrimaryFireRate  180
+Powerlevel 2
+Viewcone 360
+Avoid_Secondary 7
+Avoid_primary 7
+Avoid_Mines 9
+TurnRateAccell 0.075
+MoveRateAccell 0.075
+Anticipate_Move 0.6
+MaxMoveRate 7
+MinRange 256
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Bike_Slick
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 256
+PrimaryWeaponType 1
+PrimaryFireRate  180
+Powerlevel 2
+Viewcone 180
+Avoid_Secondary 9
+Avoid_primary 7
+Avoid_Mines 7
+TurnRateAccell 0.085
+MoveRateAccell 0.085
+Anticipate_Move 0.6
+MaxMoveRate 10
+MinRange 256
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Bike_CuvelClark
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 192
+PrimaryWeaponType 1
+PrimaryFireRate  120
+Powerlevel 3
+Viewcone 170
+Avoid_Secondary 6
+Avoid_primary 7
+Avoid_Mines 6
+TurnRateAccell 0.080
+MoveRateAccell 0.080
+Anticipate_Move 0.6
+MaxMoveRate 11
+MinRange 256
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Bike_Sceptre
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 512
+PrimaryWeaponType 1
+PrimaryFireRate  80
+Powerlevel 3
+Viewcone 360
+Avoid_Secondary 7
+Avoid_primary 6
+Avoid_Mines 9
+TurnRateAccell 0.065
+MoveRateAccell 0.065
+Anticipate_Move 0.6
+MaxMoveRate 6
+MinRange 256
+ThinkTime 40 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Bike_NimSoo
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 256
+PrimaryWeaponType 4
+PrimaryFireRate  20
+Powerlevel 3
+Viewcone 120
+Avoid_Secondary 5
+Avoid_primary 6
+Avoid_Mines 6
+TurnRateAccell 0.080
+MoveRateAccell 0.080
+Anticipate_Move 0.5
+MaxMoveRate 7
+MinRange 128
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+
+Enemytype ENEMY_Bike_Jo
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_AVOID_MINES
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+Radius 75
+Shield 256
+PrimaryWeaponType 4
+PrimaryFireRate  20
+Powerlevel 3
+Viewcone 120
+Avoid_Secondary 5
+Avoid_primary 6
+Avoid_Mines 6
+TurnRateAccell 0.075
+MoveRateAccell 0.075
+Anticipate_Move 0.6
+MaxMoveRate 9
+MinRange 128
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+
+Enemytype ENEMY_Bike_Mofisto
+Flags AI_BEHAVIOUR_ATTACK_ONSITE
+AI_BEHAVIOUR_ATTACK_PROVOKE
+AI_BEHAVIOUR_AVOID_PRIMARY
+AI_BEHAVIOUR_AVOID_SECONDARY
+AI_BEHAVIOUR_ANTICIPATE_MOVE
+AI_BEHAVIOUR_NOFRIENDLYFIRE
+AI_BEHAVIOUR_ATTACK_FIND
+AI_BEHAVIOUR_WEAPONKNOWLEDGE 
+AI_BEHAVIOUR_PRECISECONTROL
+AI_BEHAVIOUR_LEAVENETWORK
+AI_BEHAVIOUR_AVOID_MINES
+Radius 75
+Shield 384
+PrimaryWeaponType 3
+PrimaryFireRate  120
+Powerlevel 3
+Viewcone 120
+Avoid_Secondary 5
+Avoid_primary 6
+Avoid_Mines 6
+TurnRateAccell 0.070
+MoveRateAccell 0.070
+Anticipate_Move 0.5
+MaxMoveRate 6
+MinRange 128
+ThinkTime 10 
+HearRange 4096
+MaxRange  1024
+BlindSearchTime 10240
+NetworkRange 4096
+ThinkRange 4096
+
+EnemyType ENEMY_BOSS_Exogenon
+Shield 5000
