@@ -1,9 +1,0 @@
-GERMAN:
-Zum installieren einfach "Aztec" (ohne "") in die Battle.dat im FORSAKEN-Levelverzeichnis eintragen oder den Level-Installer benutzen. (Download 	unter: http://fly.to/fzk)
-
-	VIEL SPASS MIT - N I G H T S H I P - !!!
-
-ENGLISH:
-To install the level add "Aztec" (without "") to the Battle.dat in the FORSAKEN levelfolder or use the Level-Installer. (Download at http://fly.to/fzk)
-	
-	ENJOY - A Z T E C - !!!
