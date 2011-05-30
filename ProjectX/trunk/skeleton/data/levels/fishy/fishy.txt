@@ -1,0 +1,33 @@
+Warning - this stations structure is being heated by lava through the sea bed. You will not be able to withstand the rising temperature for long.
+You found a secret area
+Wind tunnel activated
+Wind tunnel de-activated.  A rival bounty hunter has appeared.
+This door is locked
+Gate unlocked
+Use the pools of water to cool your bike
+A gate has unlocked behind you
+DO NOT LEAVE THE PATH
+Door unlocked
+A Hunter holds the key
+Watch out for 'ROOK' on kali... he rewrote the game
+Security area
+Secured area unlocked
+Secured area locked
+You need a Trojax to unlock this gate
+You need a Trojax to unlock this gate
+You need a Crystal to unlock this gate
+You need a Crystal to unlock this gate
+Reactors are still active
+WARNING - SWITCH OFF YOUR REARVIEW OR YOUR FRAMERATE WILL DISAPPEAR
+You will need something stronger then shields to get through here!
+Reactor room
+Reactors have been shut down, the outer doors have opened
+1 reactor down, 5 to go
+2 reactors down, 4 to go
+3 reactors down, 3 to go
+4 reactors down, 2 to go
+5 reactors down, 1 to go
+Reactors are still active
+Your greed for gold will be the death of you
+You will not escape here alive!
+Another bounty hunter has appeared
